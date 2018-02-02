@@ -13,7 +13,7 @@ Some guidelines:
  structure, frameworks, patterns, design, testing etc.
 - There is no right or wrong solution, as long as it is your solution.
 - Be prepared to describe your work in detail.
--The deliverable should be a publicly accessible repository containing the application and a README file containing at least a guide on how to run the application.
+- The deliverable should be a publicly accessible repository containing the application and a README file containing at least a guide on how to run the application.
 
 ## Create a table
 
