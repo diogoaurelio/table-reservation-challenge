@@ -55,6 +55,7 @@ Body:
 
 ```
 {
+  "customer-name": "Mr. Smith",
   "timeslot": {
     "from": "2018-01-04T18:00:00.000Z",
     "to": "2018-01-04T20:00:00.000Z"
@@ -81,13 +82,15 @@ Body:
 ```
 {
   "id": 0,
-  "name": "Table with a view to the mountains",
+  "table-name": "Table with a view to the mountains",
   "reservations": [
     {
+      "customer-name": "Mr. Smith",
       "from": "2018-01-04T18:00:00.000Z",
       "to": "2018-01-04T20:00:00.000Z"
     },
     {
+      "customer-name": "Mr. Pink",
       "from": "2018-01-04T20:00:00.000Z",
       "to": "2018-01-04T21:00:00.000Z"
     }
