@@ -30,7 +30,7 @@ Body:
 
 ```
 {
-  "name": "Table with a view to the mountains"
+  "table-name": "Table with a view to the mountains"
 }
 ```
 
@@ -68,7 +68,7 @@ Body:
 Return the response status depending whether the reservation was successful or not. For example, if the tables is
 already reserved at the mentioned time slot, then the status should be `CONFLICT`.
 
-## Show a table
+## Show a reservations on a table
 
 Endpoint: `/api/v1/table/{id}`
 
