@@ -1,5 +1,7 @@
 # Table reservation backend API
 
+You need to develop the following backend API.
+
 Table reservation is an application to help the restaurant owner manage tables. A table is created by posting a name to
 the backend. Tables can be queried from the backend and guests can submit times suitable for them to make a reservation.
 
@@ -30,7 +32,7 @@ Body:
 
 ```
 {
-  "table-name": "Table with a view to the mountains"
+  "name": "Table with a view to the mountains"
 }
 ```
 
@@ -55,7 +57,7 @@ Body:
 
 ```
 {
-  "customer-name": "Mr. Smith",
+  "customer_name": "Mr. Smith",
   "timeslot": {
     "from": "2018-01-04T18:00:00.000Z",
     "to": "2018-01-04T20:00:00.000Z"
@@ -82,15 +84,15 @@ Body:
 ```
 {
   "id": 0,
-  "table-name": "Table with a view to the mountains",
+  "name": "Table with a view to the mountains",
   "reservations": [
     {
-      "customer-name": "Mr. Smith",
+      "customer_name": "Mr. Smith",
       "from": "2018-01-04T18:00:00.000Z",
       "to": "2018-01-04T20:00:00.000Z"
     },
     {
-      "customer-name": "Mr. Pink",
+      "customer_name": "Mr. Pink",
       "from": "2018-01-04T20:00:00.000Z",
       "to": "2018-01-04T21:00:00.000Z"
     }
