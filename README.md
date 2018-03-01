@@ -1,4 +1,4 @@
-# Table reservation backend API
+# Tech Challenge: Table reservation backend API
 
 Welcome to the Orderbird Tech Challenge :-). You need to develop the following backend API.
 
@@ -13,11 +13,14 @@ The deliverable should be a publicly accessible repository containing the applic
 Some guidelines:
 - Your solution should be able to scale for a larger purpose. Thus imagine the app being extended to cover a larger API
  and/or a bigger feature set.
+- please write tests (yes, seriously, it is important to us)
 - Showcase your abilities, and use the task to demonstrate your idea of best practices, regarding coding style, project
- structure, frameworks, patterns, design, testing etc.
+ structure, frameworks, patterns, design, etc.
 - There is no right or wrong solution, as long as it is your solution.
+- if you only have time to do one thing please do it as good as you possible can. It is better to have an nice but incomplete solution rather than a mediocre "feature complete" one. We want to get a good impression of your abilities.
 - Be prepared to describe your work in detail.
 
+Here are the Endpoints and some example responses:
 ***
 
 ## Create a table
